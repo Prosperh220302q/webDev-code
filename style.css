@@ -1,0 +1,12 @@
+*{
+    background-color: aqua;
+}
+
+.button {
+    background-color: red;
+  }
+  
+  .button:hover {
+    background-color: green;
+  }
+  

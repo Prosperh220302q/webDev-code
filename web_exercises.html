@@ -1,0 +1,43 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Calculator, Simple Web Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="web_exercises.js"></script>
+</head>
+<body>
+
+    <form>
+        <label for="num1">1st Number:</label>
+        <input type="number" id="num1" name="num1">
+
+        <label for="num2">2nd Number:</label>
+        <input type="number" id="num2" name="num2">
+        <br>
+        <button type="button" onclick="multiply()">Multiply</button>
+        <br><br>
+        <button type="button" onclick="divide()">Divide</button>
+    </form>
+
+    <form>
+      <label for="temp">Temperature in Celsius:</label>
+      <input type="number" id="temp" name="temp">
+
+      <button type="button" onclick="celcToFahr()">Calculate F</button>
+    </form>
+
+    <div id="multiplicationResult"></div>
+    <div id="TemperatureResult"></div>
+    <div id="divisionResult"></div>
+    <h2 id="heading">Change ME!!</h2>
+
+    <input type="text" id="textInput">
+    <button onclick="replaceHeading()">Replace</button>
+    <br><br>
+
+<button type="button" class="button">Hover Me!</button>
+
+</body>
+</html>
